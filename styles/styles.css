@@ -1,0 +1,28 @@
+/* Styling for gallery of ukiyo-e prints on Edo page */
+.ukiyo-gallery{
+    display: flex;
+    overflow-x: scroll;
+    padding: 10px;
+    flex-wrap: nowrap;
+}
+
+.ukiyo-gallery div{
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+/* Table on report page */
+.report-table, .report-table th, .report-table td{
+    margin-left: 15%;
+    margin-right: 15%;
+    width: fit-content;
+    border: 2px solid black;
+}
+/* all italic text appears red and bold when hovered over */
+i:hover {
+    color: #ff0000;
+    font-weight: bold;
+}
+/* Visited links are purple */
+a:visited {
+    color: purple;
+}
